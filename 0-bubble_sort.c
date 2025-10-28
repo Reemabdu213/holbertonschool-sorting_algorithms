@@ -31,10 +31,3 @@ void bubble_sort(int *array, size_t size)
 			break;
 	}
 }
-```
-
-### **0-O:**
-```
-O(n)
-O(n^2)
-O(n^2)
