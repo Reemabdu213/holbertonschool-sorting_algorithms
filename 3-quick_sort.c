@@ -59,7 +59,7 @@ void quick_sort_recursion(int *array, int low, int high, size_t size)
 	int pivot_index;
 
 	if (low < high)
-	{
+	{ 
 		pivot_index = lomuto_partition(array, low, high, size);
 		quick_sort_recursion(array, low, pivot_index - 1, size);
 		quick_sort_recursion(array, pivot_index + 1, high, size);
